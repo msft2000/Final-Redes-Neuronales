@@ -53,7 +53,7 @@ function SinglePage() {
       <div id="single-page--container">
         <h1>Sistema de Análisis de Sentimientos</h1>
         <div className="single-page-content">
-          <div className="info--container">
+          <div className="info--container" style={{display:"none"}}>
             <h3>Usar Twitter</h3>
             <input type="url" placeholder="Ingrese el link del tweet a analizar" onChange={((e)=>{setLink(e.target.value)})}/>
             <button onClick={handleUseTexto}>Analizar</button>
